@@ -64,7 +64,6 @@ public class TaskService {
                 exists.getTitle() : title);
         exists.setDescription(Strings.isEmpty(description) ?
                 exists.getDescription() : description);
-
         exists.setDueDate(Objects.isNull(dueDate) ?
                 exists.getDueDate() : Date.valueOf(dueDate));
 
